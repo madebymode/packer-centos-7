@@ -9,8 +9,8 @@
       "type": "ansible-local",
       "playbook_file": "ansible/main.yml",
       "role_paths": [
-        "/etc/ansible/roles/geerlingguy.packer-rhel",
-        "/etc/ansible/roles/geerlingguy.nfs"
+        "/usr/local/etc/ansible/roles/geerlingguy.packer-rhel",
+        "/usr/local/etc/ansible/roles/geerlingguy.nfs"
       ]
     },
     {
@@ -71,7 +71,7 @@
       "http_directory": "http",
       "iso_urls": [
         "CentOS-7-x86_64-Minimal-1511.iso",
-        "http://centos.mirrors.hoobly.com/7/isos/x86_64/CentOS-7-x86_64-Minimal-1511.iso"
+        "http://mirrors.mit.edu/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1511.iso"
       ],
       "iso_checksum_type": "md5",
       "iso_checksum": "88c0437f0a14c6e2c94426df9d43cd67",
