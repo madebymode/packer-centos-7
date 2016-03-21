@@ -22,8 +22,8 @@ The following software must be installed/present on your local machine before yo
 I install everything via homebrew/cask
 
 ```
-$ brew cask install virtualbox  vmware-fusion
-$ brew install vagrant packer ansible
+$ brew cask install virtualbox vmware-fusion vagrant
+$ brew install packer ansible
 ```
 You will also need some Ansible roles installed so they can be used in the building of the VM. To install the roles:
 
