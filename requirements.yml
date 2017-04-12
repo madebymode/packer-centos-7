@@ -1,0 +1,3 @@
+---
+- src: troyxmccall.packer-rhel
+- src: troyxmccall.nfs

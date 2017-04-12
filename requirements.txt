@@ -1,2 +1,0 @@
-troyxmccall.packer-rhel
-troyxmccall.nfs
