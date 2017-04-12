@@ -24,7 +24,6 @@ The following software must be installed/present on your local machine before yo
   - [VMware Fusion](http://www.vmware.com/products/fusion/) (or Workstation - if you want to build the VMware box)
   - [Ansible](http://docs.ansible.com/intro_installation.html)
 
-
 I install everything via homebrew/cask
 
 ```
