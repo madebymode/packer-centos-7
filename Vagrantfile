@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
   # VMware Fusion.
   # `vagrant up vmware --provider=vmware_fusion`
   config.vm.define "vmware" do |vmware|
-    vmware.vm.hostname = "centos7vmware"
+    # vmware.vm.hostname = "centos7vmware"
     vmware.vm.box = "file://builds/vmware-centos7.box"
     vmware.vm.network :private_network, ip: "192.168.3.2"
 
@@ -70,7 +70,9 @@ Vagrant.configure("2") do |config|
       v.customize ["modifyvm", :id, "--natdnshostresolver1", "off"]
     end
 
-    config.vm.provision "shell", inline: "echo Hello, World"
+    # config.vm.provision "ansible_local" do |ansible|
+    #   ansible.playbook = "/vagrant/vagrant-centos7-config/provision.yml"
+    # end
   end
 
 end
