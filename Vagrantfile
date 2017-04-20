@@ -35,7 +35,7 @@ Vagrant.configure("2") do |config|
   end
 
     config.vm.provision "ansible_local" do |ansible|
-      ansible.playbook = "/vagrant/vagrant-centos7-config/provision.yml"
+      ansible.playbook = "/vagrant/vagrant-centos7-ansible-config/provision.yml"
     end
 
   end
