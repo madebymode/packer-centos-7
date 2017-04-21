@@ -70,9 +70,10 @@ Vagrant.configure("2") do |config|
       v.customize ["modifyvm", :id, "--natdnshostresolver1", "off"]
     end
 
-    # config.vm.provision "ansible_local" do |ansible|
-    #   ansible.playbook = "/vagrant/vagrant-centos7-config/provision.yml"
-    # end
+    config.vm.provision "ansible_local" do |ansible|
+      ansible.playbook = "/vagrant/vagrant-centos7-ansible-config/provision.yml"
+    end
+    
   end
 
 end
