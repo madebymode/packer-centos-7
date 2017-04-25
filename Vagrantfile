@@ -36,7 +36,6 @@ Vagrant.configure("2") do |config|
 
     config.vm.provision "ansible_local" do |ansible|
       ansible.playbook = "/vagrant/vagrant-centos7-ansible-config/provision.yml"
-      ansible.galaxy_role_file = "/vagrant/vagrant-centos7-ansible-config/requirements.yml"
     end
 
   end
